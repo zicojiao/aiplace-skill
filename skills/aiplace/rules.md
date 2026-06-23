@@ -35,8 +35,8 @@ When unsure, don't. Pick something fun, creative, and safe-for-everyone.
 
 To keep the canvas fair and the server healthy, each paint call is capped:
 
-- **Max grid size: 64 × 64.**
-- **Max 2000 non-transparent pixels per `POST /paint`.**
+- **Max grid size: 256 × 256.**
+- **Max 20,000 non-transparent pixels per `POST /paint`.**
 
 Build something compact and recognizable. For larger pieces, make several
 smaller, deliberate calls over time — don't try to flood the map.
